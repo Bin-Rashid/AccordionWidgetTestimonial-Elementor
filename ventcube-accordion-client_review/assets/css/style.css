@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nohemi', sans-serif;
+}
+
+.ventcube-accordion-header,
+.ventcube-accordion-body {
+    font-family: 'Nohemi', sans-serif;
+}
+
+.ventcube-accordion {
+    max-width: 1900px;
+    margin: 20px auto;
+    background: #F4FCF9;
+}
+
+.ventcube-accordion-item {
+    border-bottom: 1px solid #1c1c1c;
+    background: #CBF7DD;
+    width: 100%;
+}
+
+.ventcube-accordion-header {
+    cursor: pointer;
+    padding: 25px;
+    margin: auto;
+    max-width: 1900px;
+}
+
+.ventcube-accordion-item.active {
+    background-color: #F4FCF9;
+    border-bottom: none;
+}
+
+.ventcube-header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.ventcube-header-left .ventcube-number {
+    display: inline-block;
+    font-family: 'Nohemi', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    margin-right: 61.5px;
+}
+
+.ventcube-header-left span {
+    display: inline-block;
+    font-family: 'Nohemi', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+}
+
+.ventcube-accordion-header .ventcube-year {
+    display: flex;
+    align-items: center;
+    font-family: 'Nohemi', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.ventcube-accordion-header .ventcube-year::before {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 1px;
+    background: #000;
+    margin-right: 30px;
+}
+
+.ventcube-accordion-body {
+    display: none;
+    background-color: #F4FCF9;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.ventcube-accordion-body .client_review_area p.client_review_description{
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+
+}
+.ventcube-accordion-body .ventcube-main_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ventcube-accordion-body .ventcube-main_row .ventcube-left_column {
+    margin-left: 102px;
+    display: flex;
+}
+
+.ventcube-accordion-body .ventcube-main_row .ventcube-left_column .ventcube-row {
+    margin-bottom: 20px;
+}
+
+.ventcube-accordion-body .ventcube-additional_info_row {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.ventcube-accordion-body .ventcube-additional_info_row h2 {
+    font-family: 'Nohemi', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.ventcube-accordion-body .ventcube-additional_info_row ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+}
+
+.ventcube-accordion-body .ventcube-additional_info_row ul li {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.ventcube-accordion-body .ventcube-additional_info_row ul li .ventcube-additional-list-icon {
+    width: 17px;
+    height: 17px;
+}
+
+.ventcube-accordion-body.active {
+    display: block;
+}
+
+.ventcube-accordion-body .ventcube-client-image-body {
+    position: absolute;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    top: -80px;
+    left: calc(50% - 37px);
+}
+
+.ventcube-accordion-body .ventcube-main_row .ventcube-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.ventcube-accordion-body .ventcube-accordionSeparator {
+    width: 100%;
+    height: 1px;
+    border: 0.5px dashed #1C1C1C;
+}
+
+.ventcube-accordion-body .ventcube-row_of_btn a.ventcube-button_right {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: "Inter", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    color: #1C1C1C;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 35px;
+    gap: 10px;
+}
+
+.ventcube-accordion-body .ventcube-row_of_btn.ventcube-mobile_version_ventcube {
+    display: none;
+}
+
+.ventcube-accordion-body .ventcube-clint_work_image_row {
+    margin-left: 133px;
+}
+
+.ventcube-accordion-body .ventcube-clint_work_image_row img {
+    width: 100%;
+    max-width: 510px;
+    height: auto;
+    object-fit: cover;
+}
+
+span.ventcube-button_icon {
+    width: 14px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.ventcube-button_right .ventcube-custom-icon-class {
+    font-size: inherit;
+    width: 14px;
+    height: 14px;
+}

@@ -1,0 +1,133 @@
+@media screen and (max-width:550px) {
+    .ventcube-accordion-header,
+    .ventcube-accordion-body {
+        padding: 20px;
+    }
+    
+    .ventcube-accordion-body .ventcube-header-content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+    .ventcube-accordion-body .client_review_area p.client_review_description{
+        text-align: center;
+    
+    }
+    .ventcube-accordion-body {
+        padding-bottom: 46px;
+    }
+    .ventcube-accordion-body .ventcube-main_row {
+        margin-bottom: 20px;
+        margin-top: 60px;
+    }
+    .ventcube-accordion-body .ventcube-main_row .ventcube-left_column .ventcube-client_review_description {
+        text-align: center;
+    }
+
+    .ventcube-accordion-body .ventcube-column {
+        width: 100%;
+    }
+
+    .ventcube-accordion-body .ventcube-main_row img {
+        max-width: 100%;
+    }
+
+    .ventcube-accordion-body .ventcube-client-image-body {
+        position: absolute;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        top: -25px;
+        left: calc(50% - 25px); /* Center the image horizontally */
+    }
+
+    .ventcube-accordion-body .ventcube-main_row {
+        flex-direction: column; /* Stack columns vertically */
+        align-items: center;
+        gap: 30px; /* Add some space between stacked columns */
+    }
+    .ventcube-accordion-body .ventcube-main_row .ventcube-left_column {
+        align-items: center;
+        margin-left: 0;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .ventcube-accordion-body .ventcube-main_row .ventcube-left_column .ventcube-row {
+        margin-bottom: 10px;
+    }
+    .ventcube-accordion-body .ventcube-main_row .ventcube-right_column {
+        align-items: center;
+        margin-left: 0;
+    }
+    .ventcube-accordion-body .ventcube-additional_info_row {
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .ventcube-accordion-body .ventcube-additional_info_row h2 {
+        text-align: center;
+        font-size: 20px; /* Reduce font size for smaller screens */
+    }
+
+    .ventcube-accordion-body .ventcube-additional_info_row ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    
+    .ventcube-accordion-body .ventcube-additional_info_row ul li {
+        text-align: center;
+    }
+    
+    .ventcube-accordion-body .ventcube-additional_info_row ul li .ventcube-additional-list-icon {
+        width: 17px;
+        height: 17px;
+    }
+    .ventcube-accordion-body .ventcube-row_of_btn.ventcube-desktop_version_ventcube {
+        display: none;
+    }
+    .ventcube-accordion-body .ventcube-row_of_btn.ventcube-mobile_version_ventcube {
+        display: block;
+    }
+
+    .ventcube-accordion-body .ventcube-button_right {
+        margin-top: 45px;
+        gap: 7px;
+    }
+
+    .span.ventcube-button_icon {
+        width: 12px; /* Adjust icon size */
+        height: 12px;
+    }
+
+    .ventcube-column {
+        margin-right: 0; /* Remove margin */
+    }
+
+    .ventcube-header-left .ventcube-number {
+        font-size: 20px; /* Adjust font size */
+        margin-right: 120px;
+    }
+    
+    .ventcube-header-right h2 {
+        font-size: 20px; /* Adjust font size */
+    }
+
+    .ventcube-accordion-header .ventcube-year {
+        margin-top: 10px;
+    }
+    .ventcube-accordion-header .ventcube-year::before {
+        display: none;
+    }
+    .ventcube-accordion-body .ventcube-clint_work_image_row {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    
+    .ventcube-accordion .ventcube-row.client_review_area .ventcube-client_review_description {
+        font-size: 14px;
+        text-align: center;
+    }
+}
